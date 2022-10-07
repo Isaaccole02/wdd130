@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: rgb(255, 170, 220);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+h1:hover {
+    color: black;
+}
+
+h4 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    width: 375px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+h3 {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.number-list {
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    font: sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+img {
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main-para {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.footer-para {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    margin: 0 auto;
+    line-height: 15px;
+}
