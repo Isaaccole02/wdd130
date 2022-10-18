@@ -1,0 +1,41 @@
+body {
+    background-color: grey;
+}
+
+#banner {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+#footer_img1 {
+    width: 200px;
+    margin: 0 auto;
+    border: 12px solid #313131;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+#footer_img2 {
+    width: 200px;
+    margin: 0 auto;
+    border: 12px solid #313131;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+#footer_img3 {
+    width: 200px;
+    margin: 0 auto;
+    border: 12px solid #313131;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+/*
+* {
+    border: 2px solid blue;
+}
+*/

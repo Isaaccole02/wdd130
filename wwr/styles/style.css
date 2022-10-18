@@ -1,11 +1,35 @@
 .content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
+    color: white;
+}
+
+header {
+    background-color: #5475BA;
+    margin: ;
+}
+
+#logo_link {
+    padding-top: 5px 0 10px 0;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -18,6 +42,7 @@ nav a {
 
 main section {
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #background {
@@ -25,8 +50,9 @@ main section {
 }
 
 nav a {
-    background-color: #85E4FF;
-    color: darkblue;
+    background-color: #5475BA;
+    color: white;
+    padding-top: 5px;
 
 }
 
@@ -37,6 +63,9 @@ nav a:hover {
 
 .home-title {
     color: #5475BA;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
 }
 
 h4 {
@@ -44,33 +73,56 @@ h4 {
 }
 
 .book, .join {
-    background-color: #85e5ffc9;
-    color: #01a80fce;
+    font-size: 18px;
+    background-color: #5475BA;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
-    background-color: #01a80fce;
-    color: white;
+    background-color: white;
+    color: #5475BA;
+}
+
+.msg {
+    background-color: #5475BA;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    background-color: #85e5ffc9;
-    color: #5475BA;
+    background-color: #5475BA;
+    color: white;
 }
 
 .msg p {
-    background-color: #85e5ffc9;
-    color: #5475BA;
+    font-size: .8em;
+    background-color: #5475BA;
+    color: white;
+    padding-bottom: 15px;
 }
 
 footer {
-    background-color: #85e5ffc9;
-    color: #5475BA;
+    background-color: #5475BA;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
-    color: #01a80fce;
+    color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -82,10 +134,12 @@ footer a:hover {
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -100,3 +154,16 @@ footer p a:hover {
     text-decoration: underline;
 }    
     
+#background {
+    background-color: #5475BA;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+
