@@ -292,9 +292,9 @@ footer {
         display: block;
         height: auto;
     }
-    /* nav, footer {
+    nav, footer {
         flex-direction: column;
-    } */
+    }
     nav a {
         display: block;
         padding: 15px;
