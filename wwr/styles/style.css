@@ -287,6 +287,35 @@ footer {
     box-shadow: 5px 5px 10px #5475BA;
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 350px ;
+    background-color: #5475BA;
+    padding-block: 10px;
+}
+
+.rivers-images {
+    grid-column: 1/2;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    border: lightslategray solid 10px;
+    margin-top: 10px;
+}
+
+.riversections {
+    background-color: #5475BA;
+    border-radius: 5%;
+    grid-row: 1/2;
+}
+
+.rivers-text {
+    grid-column: 2/3;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
