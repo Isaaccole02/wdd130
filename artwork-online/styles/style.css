@@ -1,24 +1,173 @@
 /* CONTENT STYLES */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display+SC:wght@900&display=swap');:root
 
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "League-spartan", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: "Playfair Display SC";
+}
 
 hr {
-    color: #57CC99;
+  border: #57CC99 2px solid;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
-/* HEADER STYLES */
 
+/* HEADER STYLES */
+header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #22577A;
+  justify-items: center;
+  align-items: center;
+  height: 140px;
+}
+
+.logo {
+  grid-column-start: 1;
+  width: 80px;
+  border: white 5px solid;
+  border-radius: 25%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+header nav a{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding: 8px;
+}
+
+header nav a:hover {
+  color: #22577A;
+  background-color: white;
+  border-radius: 10%;
+}
 
 /* HERO SECTION */
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+}
 
+#hero-img {
+  width: 300%;
+  max-height: 500px;
+}
 
+.hero-msg {
+  grid-column: 2/3;
+  color: white;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.hero-msg h1 {
+  font-size: 2.5em;
+  font-family: "Playfair Display SC";
+}
+.hero-msg h4 {
+  font-size: 1.25em;
+  font-family: "League-spartan";
+}
 
 /* FOOTER STYLES */
+footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #22577A;
+  text-align: center;
+}
 
+footer p {
+  margin-top: 35px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+}
 
+.ft-link :hover {
+  text-decoration: none;
+  color: #22577A;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+footer nav a {
+  background-color: white;
+  border-radius: 50%;
+}
+
+footer nav a:hover {
+  background-color: #83CDCE;
+}
 
 /* MAIN STYLES HOME PAGE */
+.home-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #83CDCE;
+}
+.home-title h1 {
+  font-family: "Playfair Display SC";
+}
+.home-title h4 {
+  font-family: "League-spartan";
+}
 
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5;
+  
+}
+
+.card-img {
+  width: 300px;
+  height: 225px;
+  float: left;
+  margin: 10px;
+  border: #83CDCE 10px solid;
+  border-radius: 1em;
+}
+
+.card-text {
+  margin: 15px;
+}
+.card-text h2 {
+  font-family:  "Playfair Display SC";
+}
+.card-text p {
+  font-family: Helvetica;
+}
+
+.comestomind-section {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.whatisaa-section {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.diditcomefrom-section {
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
 
 
 /* MAIN STYLES GALLARY */
@@ -30,43 +179,4 @@ hr {
 
 
 /* MAIN STYLES CONTACT US */
-#feedback {
-    padding: 20px;
-    margin: 20px;
-    border: #5475BA 5px solid;
-    border-radius: 5%;
-}
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
