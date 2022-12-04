@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artwork Online | Art Gallary</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
 </head>
 <body>
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
-                <img src="images/logo.png" alt="Artwork Online Logo">
+                <img class="logo" src="images/logo.png" alt="Artwork Online Logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -24,14 +26,14 @@
             <div id="hero-box">
                 <img id="hero-img" src="images/matrix-oneszeros-onscreen.webp" alt="The Matrix is real image">
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">"Technology, like art, is a soaring exercise of the human imagination"</h1>
-                <h4>- Daniel Bell</h4>
-            </section>
+            <div class="hero-msg">
+                <h1 class="gallary-title">"Technology, like art, is a soaring exercise of the human imagination"</h1>
+                <h4>- Daniel Bell -</h4>
+            </div>    
         </div>
         <main class="gallary-grid">
-            <section class="castles-card">
-                <h2>Castles</h2>
+            <section class="structures-card">
+                <h2>Structures</h2>
                 <img class="gallary-img" src="gallary-images/castle-sunset.jpg" alt="Castle in the Sunset">
             </section>
             <section class="volcanos-card">
@@ -54,22 +56,22 @@
         <footer>
             <p>Artwork Online &copy; 2022<br> - Isaac Cole - </p>
             <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html"></a>Contact Us</p>
+            <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/social-animations/icons8-facebook-circled-48.png" alt="fb icon">
+                    <img class="social-img" src="images/social-animations/icons8-facebook-circled-48.png" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="images/social-animations/icons8-twitter-48.png" alt="twitter icon">
+                    <img class="social-img" src="images/social-animations/icons8-twitter-48.png" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/social-animations/icons8-instagram-48.png" alt="instagram icon">
+                    <img class="social-img" src="images/social-animations/icons8-instagram-48.png" alt="instagram icon">
                 </a>
                 <a href="https://youtube.com" target="_blank">
-                    <img src="images/social-animations/icons8-youtube-logo-48.png" alt="youtube icon">
+                    <img class="social-img" src="images/social-animations/icons8-youtube-logo-48.png" alt="youtube icon">
                 </a>
                 <a href="https://tiktok.com" target="_blank">
-                    <img src="images/social-animations/icons8-tiktok-48.png" alt="tiktok icon">
+                    <img class="social-img" src="images/social-animations/icons8-tiktok-48.png" alt="tiktok icon">
                 </a>
             </div>
         </footer>

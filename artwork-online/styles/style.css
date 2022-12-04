@@ -22,7 +22,7 @@ hr {
 
 /* HEADER STYLES */
 header {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 4fr;
   background-color: #22577A;
   justify-items: center;
@@ -98,20 +98,24 @@ footer p {
   font-size: 1.25em;
 }
 
-.ft-link :hover {
+footer p a {
+  color: white;
   text-decoration: none;
-  color: #22577A;
-  background-color: white;
   padding: 10px;
   border-radius: 15%;
 }
 
-footer nav a {
+footer p a:hover {
+  background-color: #83CDCE;
+}
+
+.social-img {
   background-color: white;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
-footer nav a:hover {
+.social-img:hover {
   background-color: #83CDCE;
 }
 
@@ -132,7 +136,6 @@ footer nav a:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 5;
-  
 }
 
 .card-img {
@@ -171,7 +174,9 @@ footer nav a:hover {
 
 
 /* MAIN STYLES GALLARY */
-
+.gallary-title {
+  font-size: 20px;
+}
 
 
 /* MAIN STYLES FAQ */
