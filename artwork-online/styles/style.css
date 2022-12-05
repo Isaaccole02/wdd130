@@ -74,10 +74,6 @@ header nav a:hover {
   align-self: center;
   text-align: center;
 }
-.hero-msg h1 {
-  font-size: 2.5em;
-  font-family: "Playfair Display SC";
-}
 .hero-msg h4 {
   font-size: 1.25em;
   font-family: "League-spartan";
@@ -120,6 +116,11 @@ footer p a:hover {
 }
 
 /* MAIN STYLES HOME PAGE */
+.website-title {
+  font-size: 3em;
+  font-family: "Playfair Display SC";
+}
+
 .home-title {
   text-align: center;
   font-size: 1.5em;
@@ -175,13 +176,106 @@ footer p a:hover {
 
 /* MAIN STYLES GALLARY */
 .gallary-title {
-  font-size: 20px;
+  font-size: 2em;
+  font-family: "Playfair Display SC";
 }
 
+.gallary-headers {
+  font-family: "Playfair Display SC";
+  font-size: 1.75em;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: #22577A;
+  color: #83CDCE;
+}
+.gallary-img {
+  width: 300px;
+  height: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+div.scrollmenu {
+  background-color: #83CDCE;
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.gallary-grid h1 {
+  text-align: center ;
+  font-family: Helvetica;
+  color: #57CC99;
+}
+
+#contactus-btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+.btn {
+  border-color: #22577A;
+  color: #57CC99;
+}
+.btn:hover {
+  background-color: #22577A;
+  color: white;
+}
 
 /* MAIN STYLES FAQ */
 
 
 
 /* MAIN STYLES CONTACT US */
+.container-contactus {
+  font-size: 1.5em;
+  border-radius: 5px;
+  background-color: #83cdce34;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #83CDCE;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+input[type=submit] {
+  background-color: #57CC99;
+  color: white;
+  padding: 12px 100px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+input[type=submit]:hover {
+  background-color: #22577A;
+}
 
