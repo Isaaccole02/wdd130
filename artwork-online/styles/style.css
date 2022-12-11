@@ -4,6 +4,7 @@
 
 #content {
   max-width: 1600px;
+  height: 100%;
   margin: 0 auto;
   font-family: "League-spartan", Helvetica, sans-serif;
 }
@@ -244,11 +245,44 @@ div.scrollmenu a:hover {
 }
 
 /* MAIN STYLES FAQ */
-/* .faq-grid {
-  display: grid;
-  grid-template-columns: ;
-} */
+body {
+  background-image: url("images/1s-0s-matrix-image.png");
+  height: 100%;
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq-grid {
+  display: inline-block;
+  background-image: url(/artwork-online/images/1s-0s-matrix-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  padding: 0 50px 0 50px;
+}
+
+.faq-grid h2 {
+  padding-left: 65px;
+  font-family: Helvetica;
+}
+.faq-grid p {
+  font-family: Helvetica;
+}
+
+.faq-title {
+  color: white;
+  font-size: 3em;
+  font-family: "Playfair Display SC";
+}
+#hero-msg h4 {
+  color: white;
+  font-family: "Playfair Display SC";
+}
 
 /* MAIN STYLES CONTACT US */
 .container-contactus {
@@ -269,7 +303,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical; 
 }
-input[type=submit] {
+.submit-contus-btn {
   background-color: #57CC99;
   color: white;
   padding: 12px 100px;
@@ -277,8 +311,25 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   font-size: 1em;
+  text-decoration: none;
 }
-input[type=submit]:hover {
+.submit-contus-btn:hover {
   background-color: #22577A;
 }
 
+#feedback {
+  background-color: #57CC99;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;      
+}
+.moveDown {
+  margin-top: 3em;
+}
