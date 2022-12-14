@@ -175,13 +175,13 @@ footer p a:hover {
 }
 
 
-/* MAIN STYLES GALLARY */
-.gallary-title {
+/* MAIN STYLES GALLERY */
+.gallery-title {
   font-size: 2em;
   font-family: "Playfair Display SC";
 }
 
-.gallary-headers {
+.gallery-headers {
   font-family: "Playfair Display SC";
   font-size: 1.75em;
   margin-left: 30px;
@@ -189,7 +189,7 @@ footer p a:hover {
   background-color: #22577A;
   color: #83CDCE;
 }
-.gallary-img {
+.gallery-img {
   width: 300px;
   height: 300px;
   margin-left: 5px;
@@ -215,7 +215,7 @@ div.scrollmenu a:hover {
   background-color: #777;
 }
 
-.gallary-grid h1 {
+.gallery-grid h1 {
   text-align: center ;
   font-family: Helvetica;
   color: #57CC99;
