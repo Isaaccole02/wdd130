@@ -1,5 +1,5 @@
 /* CONTENT STYLES */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display+SC:wght@900&display=swap');:root
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display+SC:wght@900&display=swap');
 
 
 #content {
@@ -10,7 +10,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: "Playfair Display SC";
+  font-family: "Playfair Display SC";
 }
 
 hr {
@@ -137,7 +137,7 @@ footer p a:hover {
 .home-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5;
+  grid-template-rows: auto;
 }
 
 .card-img {
@@ -258,6 +258,7 @@ body {
 .faq-grid {
   display: inline-block;
   background-image: url(/artwork-online/images/1s-0s-matrix-image.webp);
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
