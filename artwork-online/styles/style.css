@@ -60,7 +60,7 @@ header nav a:hover {
 #hero {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: black;
+  background-color: rgb(0, 1, 32);
 }
 
 #hero-img {
@@ -255,22 +255,16 @@ body {
   background-size: cover;
 }
 
-.faq-grid {
-  display: inline-block;
-  background-image: url(/artwork-online/images/1s-0s-matrix-image.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+
+.faq-bg-text {
   color: white;
   padding: 0 50px 0 50px;
 }
-
-.faq-grid h2 {
+.faq-bg-text h2 {
   padding-left: 65px;
-  font-family: Helvetica;
 }
-.faq-grid p {
+.faq-bg-text p {
   font-family: Helvetica;
 }
 
