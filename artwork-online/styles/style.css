@@ -246,24 +246,30 @@ div.scrollmenu a:hover {
 
 /* MAIN STYLES FAQ */
 .faq-grid {
-  background-image: url(/artwork-online/images/1s-0s-matrix-image.webp);
-  height: 500%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+#faq-bg-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 100%;
+  width: 100%;
 }
 
 .faq-bg-text {
+  grid-column: 1/2;
+  grid-row: 1/2;
   color: white;
-  padding: 0 50px 0 50px;
 }
 .faq-bg-text h2 {
-  padding-left: 65px;
+  padding-left: 85px;
+  padding-right: 50px;
 }
 .faq-bg-text p {
   font-family: Helvetica;
+  padding: 0 50px 0 50px;
 }
 
 .faq-title {
@@ -274,6 +280,11 @@ div.scrollmenu a:hover {
 #hero-msg h4 {
   color: white;
   font-family: "Playfair Display SC";
+}
+
+#faq-contactus {
+  text-align: center;
+  font-family: Helvetica;
 }
 
 /* MAIN STYLES CONTACT US */
