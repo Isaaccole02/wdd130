@@ -245,16 +245,6 @@ div.scrollmenu a:hover {
 }
 
 /* MAIN STYLES FAQ */
-body {
-  background-image: url("images/1s-0s-matrix-image.png");
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .faq-grid {
   background-image: url(/artwork-online/images/1s-0s-matrix-image.webp);
   height: 50%;
