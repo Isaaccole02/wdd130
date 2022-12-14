@@ -1,5 +1,5 @@
 /* CONTENT STYLES */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display+SC:wght@900&display=swap');:root
 
 
 #content {
@@ -238,10 +238,16 @@ div.scrollmenu a:hover {
 .btn {
   border-color: #22577A;
   color: #57CC99;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: #22577A;
   color: white;
+  text-decoration: none;
+}
+#btn-form {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* MAIN STYLES FAQ */
